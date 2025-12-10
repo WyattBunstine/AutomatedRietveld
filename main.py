@@ -1,14 +1,15 @@
 import subprocess
 import os
+import json
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 
-def write_slurm(loc):
-    with open(loc + "test.slurm","w+") as f:
+def write_slurm(loc,filename, jobname= "Python Job"):
+    with open(loc + filename[:-3] + ".slurm","w+") as f:
         f.write("""#!/bin/bash
-#SBATCH --job-name=LaNiO_RR_test
+#SBATCH --job-name="""+jobname+"""
 #SBATCH --time=01:00:00
 #SBATCH --output=test_output
 #SBATCH --partition=parallel
@@ -21,12 +22,13 @@ def write_slurm(loc):
 
 module load GCC/12.3.0 Python/3.11.3-GCCcore-12.3.0
 source ~/virtual/py_netlogo/bin/activate
-python /data/tmcquee2/wbunsti1/AutoRiet/test/LaNiO_test.py > test.log""")
+python /data/tmcquee2/wbunsti1/AutoRiet/""" + loc + filename + " > fit.log""")
 
-def send_to_rf(files, local_loc, remote_loc):
-    for file in files:
-        subprocess.run(["scp", local_loc + file,
-                        "wbunsti1@login.rockfish.jhu.edu:/data/tmcquee2/wbunsti1/AutoRiet/" + remote_loc + file])
+def send_to_rf(local_loc, remote_loc):
+    for file in os.listdir(local_dir):
+        if ".cif" in file or ".slurm" in file or ".prm" in file or ".py" in file:
+            subprocess.run(["scp", local_loc + file,
+                            "wbunsti1@login.rockfish.jhu.edu:/data/tmcquee2/wbunsti1/AutoRiet/" + remote_loc + file])
 
 
 def download_remote(loc: str):
@@ -53,4 +55,4 @@ if __name__ == '__main__':
     #write_slurm(local_dir)
     download_remote("LaNiO_test/")
 
-    #send_to_rf(os.listdir(local_dir), local_dir, "LaNiO_test/")
+    send_to_rf(local_dir, "LaNiO_test/")

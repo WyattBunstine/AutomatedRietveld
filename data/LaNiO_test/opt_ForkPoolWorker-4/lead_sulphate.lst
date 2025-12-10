@@ -371,7 +371,7 @@
  Refinement results:
 ---------------------------------------------------------------------------------------------------------------------------------------
  Number of function calls: 5 No. of observations: 2960 No. of parameters: 9 User rejected: 0 Sp. gp. extinct: 0
- Refinement time =    0.395s,    0.197s/cycle, for 2 cycles
+ Refinement time =    0.209s,    0.104s/cycle, for 2 cycles
  wR =   18.90%, chi**2 =      85555.7, GOF =   5.38
 
  Phases:

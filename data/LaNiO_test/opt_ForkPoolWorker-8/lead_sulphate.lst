@@ -275,7 +275,6 @@
  names :         D11         D33
  values:           0           0
  refine:       False       False
- Layer Displacement:      0.000 Refine? False
 
  Phase: La2NiO4 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
@@ -293,7 +292,6 @@
  names :         D11         D33
  values:           0           0
  refine:       False       False
- Layer Displacement:      0.000 Refine? False
 
  Phase: La3Ni2O7 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
@@ -311,7 +309,6 @@
  names :         D11         D22         D33
  values:           0           0           0
  refine:       False       False       False
- Layer Displacement:      0.000 Refine? False
 
  Phase: La4Ni3O10 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
@@ -329,7 +326,6 @@
  names :         D11         D22         D33
  values:           0           0           0
  refine:       False       False       False
- Layer Displacement:      0.000 Refine? False
 
  Phase: NiO in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
@@ -347,7 +343,6 @@
  names :         D11         D33
  values:           0           0
  refine:       False       False
- Layer Displacement:      0.000 Refine? False
 
  Histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0 histogram Id: 0
 =======================================================================================================================================
@@ -357,7 +352,7 @@
  Sample Parameters:
  Goniometer omega = 2.50, chi = 0.00, phi = 0.00
  name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- value :        0.5288        0.0000        0.0000        0.0000        0.0000
+ value :        1.0000        0.0000        0.0000        0.0000        0.0000
  refine:          True         False         False         False         False
 
  Instrument Parameters:
@@ -370,14 +365,14 @@
  refine:       False       False       False       False
 
  Background function: chebyschev-1 Refine? True
- Coefficients:    813.867  -439.697   230.864   -68.305   117.255   -46.135    40.757     8.872
+ Coefficients:      1.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
  Fixed background file: ; mult: 1.000  Refine? False
 
  Refinement results:
 ---------------------------------------------------------------------------------------------------------------------------------------
- Number of function calls: 3 No. of observations: 2960 No. of parameters: 9 User rejected: 0 Sp. gp. extinct: 0
- Refinement time =    0.623s,    0.623s/cycle, for 1 cycles
- wR =   18.90%, chi**2 =      85556.1, GOF =   5.38
+ Number of function calls: 5 No. of observations: 2960 No. of parameters: 9 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.209s,    0.105s/cycle, for 2 cycles
+ wR =   18.90%, chi**2 =      85555.7, GOF =   5.38
 
  Phases:
  Result for phase: LaNiO3

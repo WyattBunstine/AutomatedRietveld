@@ -61,7 +61,7 @@
     Ni1   Ni+3          0.00000   0.00000   0.00000   1.000     -3    6    A         0.00304 0.00304 0.00550 0.00152 0.00000 0.00000
      O1    O-2          0.54570   0.00000   0.25000   1.000 2(100)   18    A         0.00770 0.00770 0.00930 0.00380-0.00150-0.00290
 
- Unit cell: a = 5.46393 b = 5.46393 c = 13.14459 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 339.851 Refine? False
+ Unit cell: a = 5.46393 b = 5.46393 c = 13.14459 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 339.851 Refine? True
 
  Phase name: La2NiO4
 =======================================================================================================================================
@@ -112,7 +112,7 @@
      O1    O-2          0.50000   0.00000   0.00000   1.000    mmm    4    I 0.01000                                                
      O2    O-2          0.00000   0.00000   0.15700   1.000 4mm(z)    4    I 0.01000                                                
 
- Unit cell: a = 3.86800 b = 3.86800 c = 12.67900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 189.696 Refine? False
+ Unit cell: a = 3.86800 b = 3.86800 c = 12.67900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 189.696 Refine? True
 
  Phase name: La3Ni2O7
 =======================================================================================================================================
@@ -161,7 +161,7 @@
      O2    O-2          0.00000   0.00000   0.19000   1.000 mm2(z)    8    I 0.01000                                                
      O3    O-2         -0.25000   0.25000   0.09600   1.000   2(z)   16    I 0.01000                                                
 
- Unit cell: a = 5.39610 b = 5.44980 c = 20.52200 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 603.504 Refine? False
+ Unit cell: a = 5.39610 b = 5.44980 c = 20.52200 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 603.504 Refine? True
 
  Phase name: La4Ni3O10
 =======================================================================================================================================
@@ -212,7 +212,7 @@
      O3    O-2          0.25000   0.25000   0.14000   1.000   2(z)   16    I 0.01000                                                
      O4    O-2          0.00000   0.00000   0.21000   1.000 mm2(z)    8    I 0.01000                                                
 
- Unit cell: a = 5.41500 b = 5.46500 c = 27.95900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 827.390 Refine? False
+ Unit cell: a = 5.41500 b = 5.46500 c = 27.95900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 827.390 Refine? True
 
  Phase name: NiO
 =======================================================================================================================================
@@ -257,15 +257,15 @@
     Ni1   Ni+2          0.00000   0.00000   0.00000   1.000-3m(100)    3    I 0.01000                                                
      O1    O-2          0.00000   0.00000   0.50000   1.000-3m(100)    3    I 0.01000                                                
 
- Unit cell: a = 2.95006 b = 2.95006 c = 7.21235 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 54.359 Refine? False
+ Unit cell: a = 2.95006 b = 2.95006 c = 7.21235 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 54.359 Refine? True
 
  Phase: LaNiO3 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
- Phase fraction  :          1 Refine? True
+ Phase fraction  :     0.9136 Refine? False
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       0.060 Refine? False
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -278,11 +278,11 @@
 
  Phase: La2NiO4 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
- Phase fraction  :          1 Refine? True
+ Phase fraction  :    0.08395 Refine? False
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       0.079 Refine? False
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -295,11 +295,11 @@
 
  Phase: La3Ni2O7 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
- Phase fraction  :          1 Refine? True
+ Phase fraction  :     0.1094 Refine? False
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       0.078 Refine? False
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -312,11 +312,11 @@
 
  Phase: La4Ni3O10 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
- Phase fraction  :          1 Refine? True
+ Phase fraction  :     0.3359 Refine? False
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       0.014 Refine? False
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -329,11 +329,11 @@
 
  Phase: NiO in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
 =======================================================================================================================================
- Phase fraction  :          1 Refine? True
+ Phase fraction  :     0.4224 Refine? False
  Extinction coeff:     0.0000 Refine? False
  March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
 
- Size model    : isotropic equatorial:       1.000 Refine? False
+ Size model    : isotropic equatorial:       0.002 Refine? False
 	 LG mixing coeff.:       1.0000 Refine? False
 
  Mustrain model: isotropic equatorial:      1000.0 Refine? False
@@ -352,7 +352,7 @@
  Sample Parameters:
  Goniometer omega = 2.50, chi = 0.00, phi = 0.00
  name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- value :        0.5288        0.0000        0.0000        0.0000        0.0000
+ value :        1.7441        0.0000        0.0000        0.0000        0.0000
  refine:          True         False         False         False         False
 
  Instrument Parameters:
@@ -365,179 +365,9 @@
  refine:       False       False       False       False
 
  Background function: chebyschev-1 Refine? True
- Coefficients:    813.866  -439.698   230.864   -68.305   117.255   -46.135    40.757     8.872
+ Coefficients:    821.308  -482.313   236.538  -111.532   126.882   -93.472    48.900   -40.751    23.284   -60.617    14.451
+                  -34.204    -7.376     2.887   -40.794
  Fixed background file: ; mult: 1.000  Refine? False
 
  Refinement results:
 ---------------------------------------------------------------------------------------------------------------------------------------
- Number of function calls: 5 No. of observations: 2960 No. of parameters: 14 User rejected: 0 Sp. gp. extinct: 0
- Refinement time =    0.396s,    0.198s/cycle, for 2 cycles
- wR =   15.95%, chi**2 =      60942.8, GOF =   4.55
-
- Phases:
- Result for phase: LaNiO3
-=======================================================================================================================================
-
- Atoms:
-   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
----------------------------------------------------------------------------------------------------------------------------------------
-    La1   La+3:
- values:   0.00000   0.00000   0.25000   0.995         0.00523 0.00523 0.00803 0.00261 0.00000 0.00000
- sig   :                                                                                               
-    Ni1   Ni+3:
- values:   0.00000   0.00000   0.00000   1.000         0.00304 0.00304 0.00550 0.00152 0.00000 0.00000
- sig   :                                                                                               
-     O1    O-2:
- values:   0.54570   0.00000   0.25000   1.000         0.00770 0.00770 0.00930 0.00380-0.00150-0.00290
- sig   :                                                                                               
-
- Density: 7.1799 g/cm**3
- Result for phase: La2NiO4
-=======================================================================================================================================
-
- Atoms:
-   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
----------------------------------------------------------------------------------------------------------------------------------------
-    La1   La+3:
- values:   0.00000   0.00000   0.36200   1.000 0.01000
- sig   :                                               
-    Ni1   Ni+2:
- values:   0.00000   0.00000   0.00000   1.000 0.01000
- sig   :                                               
-     O1    O-2:
- values:   0.50000   0.00000   0.00000   1.000 0.01000
- sig   :                                               
-     O2    O-2:
- values:   0.00000   0.00000   0.15700   1.000 0.01000
- sig   :                                               
-
- Density: 7.0119 g/cm**3
- Result for phase: La3Ni2O7
-=======================================================================================================================================
-
- Atoms:
-   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
----------------------------------------------------------------------------------------------------------------------------------------
-    La1   La+3:
- values:   0.00000   0.00000   0.50000   1.000 0.01000
- sig   :                                               
-    La2   La+3:
- values:   0.00000   0.00000   0.31480   1.000 0.01000
- sig   :                                               
-    Ni1   Ni+2:
- values:   0.00000   0.00000   0.09710   1.000 0.01000
- sig   :                                               
-     O1    O-2:
- values:   0.00000   0.00000   0.00000   0.920 0.01000
- sig   :                                               
-     O2    O-2:
- values:   0.00000   0.00000   0.19000   1.000 0.01000
- sig   :                                               
-     O3    O-2:
- values:  -0.25000   0.25000   0.09600   1.000 0.01000
- sig   :                                               
-
- Density: 7.0970 g/cm**3
- Result for phase: La4Ni3O10
-=======================================================================================================================================
-
- Atoms:
-   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
----------------------------------------------------------------------------------------------------------------------------------------
-    La1   La+3:
- values:   0.00000   0.00000   0.43100   1.000 0.01000
- sig   :                                               
-    La2   La+3:
- values:   0.00000   0.00000   0.29800   1.000 0.01000
- sig   :                                               
-    Ni1   Ni+3:
- values:   0.00000   0.00000   0.00000   1.000 0.01000
- sig   :                                               
-    Ni2   Ni+3:
- values:   0.00000   0.00000   0.13900   1.000 0.01000
- sig   :                                               
-     O1    O-2:
- values:   0.25000   0.25000   0.00000   1.000 0.01000
- sig   :                                               
-     O2    O-2:
- values:   0.00000   0.00000   0.07000   1.000 0.01000
- sig   :                                               
-     O3    O-2:
- values:   0.25000   0.25000   0.14000   1.000 0.01000
- sig   :                                               
-     O4    O-2:
- values:   0.00000   0.00000   0.21000   1.000 0.01000
- sig   :                                               
-
- Density: 7.1585 g/cm**3
- Result for phase: NiO
-=======================================================================================================================================
-
- Atoms:
-   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
----------------------------------------------------------------------------------------------------------------------------------------
-    Ni1   Ni+2:
- values:   0.00000   0.00000   0.00000   1.000 0.01000
- sig   :                                               
-     O1    O-2:
- values:   0.00000   0.00000   0.50000   1.000 0.01000
- sig   :                                               
-
- Density: 6.8457 g/cm**3
-
- Phase: LaNiO3 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
-=======================================================================================================================================
- Final refinement RF, RF^2 = 20.00%, 37.50% on 13 reflections
- Durbin-Watson statistic = 0.282
- Bragg intensity sum = 1.44e+05
- Phase fraction  :     3.0877, sig   0.067541 Weight fraction  :  0.42793, sig    0.01088
-
- Phase: La2NiO4 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
-=======================================================================================================================================
- Final refinement RF, RF^2 = 43.93%, 67.93% on 17 reflections
- Durbin-Watson statistic = 0.282
- Bragg intensity sum = 9.84e+03
- Phase fraction  :    0.35161, sig   0.083712 Weight fraction  :  0.02656, sig    0.00620
-
- Phase: La3Ni2O7 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
-=======================================================================================================================================
- Final refinement RF, RF^2 = 36.38%, 64.22% on 34 reflections
- Durbin-Watson statistic = 0.282
- Bragg intensity sum = 2.82e+04
- Phase fraction  :    0.33093, sig   0.032172 Weight fraction  :  0.08050, sig    0.00754
-
- Phase: La4Ni3O10 in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
-=======================================================================================================================================
- Final refinement RF, RF^2 = 31.49%, 50.48% on 47 reflections
- Durbin-Watson statistic = 0.282
- Bragg intensity sum = 1.48e+05
- Phase fraction  :     1.2904, sig   0.030265 Weight fraction  :  0.43411, sig    0.01059
-
- Phase: NiO in histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0
-=======================================================================================================================================
- Final refinement RF, RF^2 = 21.39%, 50.17% on 3 reflections
- Durbin-Watson statistic = 0.282
- Bragg intensity sum = 3.21e+03
- Phase fraction  :     1.4619, sig    0.47008 Weight fraction  :  0.03090, sig    0.00965
-
- Histogram: PWDR ML_Poot_20241024_6_RYH_0-RYH1055F_LaNiO3_approx4gNaI_100Chrup_9hrdwell_900C_100Chrdown_ black_fluxremaining_15min.raw scan 0 histogram Id: 0
-=======================================================================================================================================
- PWDR histogram weight factor = 1.000
- Final refinement wR = 15.95% on 2960 observations in this histogram
- Other residuals: R = 10.12%, R-bkg = 23.32%, wR-bkg = 15.95% wRmin = 3.52%
- Instrument type: Bragg-Brentano
-
- Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
- Element:     La+3     Ni+3      O-2     Ni+2
- f'     :   -1.419   -3.002    0.049   -3.002
- f"     :    9.035    0.509    0.032    0.509
-
- Sample Parameters:
- names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- values:        0.5096        0.0000        0.0000        0.0000        0.0000
- sig   :        0.0035                                                        
-
- Background function: chebyschev-1
- value :      808.9      -452     218.3    -79.24     108.7    -56.79     32.28     4.375
- sig   :      3.417     6.189     5.608     5.411     4.853     4.743     3.984     3.744
- Background sums: empirical 2.16e+06, Debye 0, peaks 0, Total 2.16e+06
