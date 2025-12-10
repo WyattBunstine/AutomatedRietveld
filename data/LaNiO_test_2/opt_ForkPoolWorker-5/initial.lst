@@ -1,0 +1,544 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 3
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: LaNiO3
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ La+3      20.24890  19.37630  11.63230   0.33605   2.92070   0.25070  17.82110  54.94530   2.40860
+ Ni+3      10.78060   7.75868   5.22746   0.84711   3.54770   0.22314   7.64468  16.96730   0.38604
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ La+3    Nat. Abund.    138.906    0.824
+ Ni+3    Nat. Abund.     58.700    1.030
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: R -3 c h
+ The lattice is centrosymmetric R-centered trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is -3m
+ Multiplicity of a general site is 36
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 2/3,1/3,1/3; 1/3,2/3,2/3)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y,     Z 
+ ( 3)   Y-X,    -X,     Z 
+ ( 4)   Y-X,     Y, 1/2+Z 
+ ( 5)    -Y,    -X, 1/2+Z 
+ ( 6)     X,   X-Y, 1/2+Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3          0.00000   0.00000   0.25000   0.99532(100)    6    A         0.00523 0.00523 0.00803 0.00261 0.00000 0.00000
+    Ni1   Ni+3          0.00000   0.00000   0.00000   1.000     -3    6    A         0.00304 0.00304 0.00550 0.00152 0.00000 0.00000
+     O1    O-2          0.54570   0.00000   0.25000   1.000 2(100)   18    A         0.00770 0.00770 0.00930 0.00380-0.00150-0.00290
+
+ Unit cell: a = 5.46393 b = 5.46393 c = 13.14459 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 339.851 Refine? False
+
+ Phase name: La2NiO4
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ La+3      20.24890  19.37630  11.63230   0.33605   2.92070   0.25070  17.82110  54.94530   2.40860
+ Ni+2      11.41660   7.40050   5.34420   0.97730   3.67660   0.24490   8.87300  22.16260   0.86140
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ La+3    Nat. Abund.    138.906    0.824
+ Ni+2    Nat. Abund.     58.700    1.030
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: I 4/m m m
+ The lattice is centrosymmetric I-centered tetragonal
+ The Laue symmetry is 4/mmm
+ The lattice point group is 4/mmm
+ Multiplicity of a general site is 32
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 1/2,1/2,1/2)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,     X,     Z 
+ ( 3)    -X,    -Y,     Z 
+ ( 4)     Y,    -X,     Z 
+ ( 5)    -X,     Y,     Z 
+ ( 6)    -Y,    -X,     Z 
+ ( 7)     X,    -Y,     Z 
+ ( 8)     Y,     X,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3          0.00000   0.00000   0.36200   1.000 4mm(z)    4    I 0.01000                                                
+    Ni1   Ni+2          0.00000   0.00000   0.00000   1.0004/mmm(z)    2    I 0.01000                                                
+     O1    O-2          0.50000   0.00000   0.00000   1.000    mmm    4    I 0.01000                                                
+     O2    O-2          0.00000   0.00000   0.15700   1.000 4mm(z)    4    I 0.01000                                                
+
+ Unit cell: a = 3.86800 b = 3.86800 c = 12.67900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 189.696 Refine? False
+
+ Phase name: La3Ni2O7
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ La+3      20.24890  19.37630  11.63230   0.33605   2.92070   0.25070  17.82110  54.94530   2.40860
+ Ni+2      11.41660   7.40050   5.34420   0.97730   3.67660   0.24490   8.87300  22.16260   0.86140
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ La+3    Nat. Abund.    138.906    0.824
+ Ni+2    Nat. Abund.     58.700    1.030
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: F m m m
+ The lattice is centrosymmetric F-centered orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 32
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -X,     Y,     Z 
+ ( 3)     X,    -Y,     Z 
+ ( 4)    -X,    -Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3          0.00000   0.00000   0.50000   1.000    mmm    4    I 0.01000                                                
+    La2   La+3          0.00000   0.00000   0.31480   1.000 mm2(z)    8    I 0.01000                                                
+    Ni1   Ni+2          0.00000   0.00000   0.09710   1.000 mm2(z)    8    I 0.01000                                                
+     O1    O-2          0.00000   0.00000   0.00000   0.920    mmm    4    I 0.01000                                                
+     O2    O-2          0.00000   0.00000   0.19000   1.000 mm2(z)    8    I 0.01000                                                
+     O3    O-2         -0.25000   0.25000   0.09600   1.000   2(z)   16    I 0.01000                                                
+
+ Unit cell: a = 5.39610 b = 5.44980 c = 20.52200 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 603.504 Refine? False
+
+ Phase name: La4Ni3O10
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ La+3      20.24890  19.37630  11.63230   0.33605   2.92070   0.25070  17.82110  54.94530   2.40860
+ Ni+3      10.78060   7.75868   5.22746   0.84711   3.54770   0.22314   7.64468  16.96730   0.38604
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ La+3    Nat. Abund.    138.906    0.824
+ Ni+3    Nat. Abund.     58.700    1.030
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: F m m m
+ The lattice is centrosymmetric F-centered orthorhombic
+ The Laue symmetry is mmm
+ The lattice point group is mmm
+ Multiplicity of a general site is 32
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -X,     Y,     Z 
+ ( 3)     X,    -Y,     Z 
+ ( 4)    -X,    -Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3          0.00000   0.00000   0.43100   1.000 mm2(z)    8    I 0.01000                                                
+    La2   La+3          0.00000   0.00000   0.29800   1.000 mm2(z)    8    I 0.01000                                                
+    Ni1   Ni+3          0.00000   0.00000   0.00000   1.000    mmm    4    I 0.01000                                                
+    Ni2   Ni+3          0.00000   0.00000   0.13900   1.000 mm2(z)    8    I 0.01000                                                
+     O1    O-2          0.25000   0.25000   0.00000   1.000 2/m(z)    8    I 0.01000                                                
+     O2    O-2          0.00000   0.00000   0.07000   1.000 mm2(z)    8    I 0.01000                                                
+     O3    O-2          0.25000   0.25000   0.14000   1.000   2(z)   16    I 0.01000                                                
+     O4    O-2          0.00000   0.00000   0.21000   1.000 mm2(z)    8    I 0.01000                                                
+
+ Unit cell: a = 5.41500 b = 5.46500 c = 27.95900 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 827.390 Refine? False
+
+ Phase name: NiO
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Ni+2      11.41660   7.40050   5.34420   0.97730   3.67660   0.24490   8.87300  22.16260   0.86140
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Ni+2    Nat. Abund.     58.700    1.030
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: R -3 m h
+ The lattice is centrosymmetric R-centered trigonal
+ The Laue symmetry is 3m1
+ The lattice point group is -3m
+ Multiplicity of a general site is 36
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 2/3,1/3,1/3; 1/3,2/3,2/3)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,   X-Y,     Z 
+ ( 3)   Y-X,    -X,     Z 
+ ( 4)   Y-X,     Y,     Z 
+ ( 5)    -Y,    -X,     Z 
+ ( 6)     X,   X-Y,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ni1   Ni+2          0.00000   0.00000   0.00000   1.000-3m(100)    3    I 0.01000                                                
+     O1    O-2          0.00000   0.00000   0.50000   1.000-3m(100)    3    I 0.01000                                                
+
+ Unit cell: a = 2.95006 b = 2.95006 c = 7.21235 alpha = 90.000 beta = 90.000 gamma = 120.000 volume = 54.359 Refine? False
+
+ Phase: LaNiO3 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :     0.2184 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Phase: La2NiO4 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :      1.904 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Phase: La3Ni2O7 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :     0.6851 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: La4Ni3O10 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :    0.05226 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D22         D33
+ values:           0           0           0
+ refine:       False       False       False
+
+ Phase: NiO in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :    0.03709 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     5.00 deg to    59.97 deg
+
+ Sample Parameters:
+ Goniometer omega = 2.50, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        1.0000        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540600    1.544400    0.911000    0.002000   40.551300  -35.364300    9.729830
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    0.000000    0.000000    0.000000    0.000000
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:      1.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000     0.000
+                    0.000     0.000     0.000     0.000
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 5 No. of observations: 2960 No. of parameters: 16 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.224s,    0.112s/cycle, for 2 cycles
+ wR =   15.17%, chi**2 =      54029.3, GOF =   4.28
+
+ Phases:
+ Result for phase: LaNiO3
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3:
+ values:   0.00000   0.00000   0.25000   0.995         0.00523 0.00523 0.00803 0.00261 0.00000 0.00000
+ sig   :                                                                                               
+    Ni1   Ni+3:
+ values:   0.00000   0.00000   0.00000   1.000         0.00304 0.00304 0.00550 0.00152 0.00000 0.00000
+ sig   :                                                                                               
+     O1    O-2:
+ values:   0.54570   0.00000   0.25000   1.000         0.00770 0.00770 0.00930 0.00380-0.00150-0.00290
+ sig   :                                                                                               
+
+ Density: 7.1799 g/cm**3
+ Result for phase: La2NiO4
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3:
+ values:   0.00000   0.00000   0.36200   1.000 0.01000
+ sig   :                                               
+    Ni1   Ni+2:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     O1    O-2:
+ values:   0.50000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     O2    O-2:
+ values:   0.00000   0.00000   0.15700   1.000 0.01000
+ sig   :                                               
+
+ Density: 7.0119 g/cm**3
+ Result for phase: La3Ni2O7
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3:
+ values:   0.00000   0.00000   0.50000   1.000 0.01000
+ sig   :                                               
+    La2   La+3:
+ values:   0.00000   0.00000   0.31480   1.000 0.01000
+ sig   :                                               
+    Ni1   Ni+2:
+ values:   0.00000   0.00000   0.09710   1.000 0.01000
+ sig   :                                               
+     O1    O-2:
+ values:   0.00000   0.00000   0.00000   0.920 0.01000
+ sig   :                                               
+     O2    O-2:
+ values:   0.00000   0.00000   0.19000   1.000 0.01000
+ sig   :                                               
+     O3    O-2:
+ values:  -0.25000   0.25000   0.09600   1.000 0.01000
+ sig   :                                               
+
+ Density: 7.0970 g/cm**3
+ Result for phase: La4Ni3O10
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    La1   La+3:
+ values:   0.00000   0.00000   0.43100   1.000 0.01000
+ sig   :                                               
+    La2   La+3:
+ values:   0.00000   0.00000   0.29800   1.000 0.01000
+ sig   :                                               
+    Ni1   Ni+3:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+    Ni2   Ni+3:
+ values:   0.00000   0.00000   0.13900   1.000 0.01000
+ sig   :                                               
+     O1    O-2:
+ values:   0.25000   0.25000   0.00000   1.000 0.01000
+ sig   :                                               
+     O2    O-2:
+ values:   0.00000   0.00000   0.07000   1.000 0.01000
+ sig   :                                               
+     O3    O-2:
+ values:   0.25000   0.25000   0.14000   1.000 0.01000
+ sig   :                                               
+     O4    O-2:
+ values:   0.00000   0.00000   0.21000   1.000 0.01000
+ sig   :                                               
+
+ Density: 7.1585 g/cm**3
+ Result for phase: NiO
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Ni1   Ni+2:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     O1    O-2:
+ values:   0.00000   0.00000   0.50000   1.000 0.01000
+ sig   :                                               
+
+ Density: 6.8457 g/cm**3
+
+ Phase: LaNiO3 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 25.58%, 33.40% on 13 reflections
+ Durbin-Watson statistic = 0.320
+ Bragg intensity sum = 2.9e+04
+ Phase fraction  :    0.21844, sig          0 Weight fraction  :  0.08430, sig    0.00000
+
+ Phase: La2NiO4 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 22.41%, 45.38% on 17 reflections
+ Durbin-Watson statistic = 0.320
+ Bragg intensity sum = 1.52e+05
+ Phase fraction  :     1.9038, sig          0 Weight fraction  :  0.40050, sig    0.00000
+
+ Phase: La3Ni2O7 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 19.80%, 30.65% on 34 reflections
+ Durbin-Watson statistic = 0.320
+ Bragg intensity sum = 1.67e+05
+ Phase fraction  :    0.68505, sig          0 Weight fraction  :  0.46406, sig    0.00000
+
+ Phase: La4Ni3O10 in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 39.57%, 52.08% on 47 reflections
+ Durbin-Watson statistic = 0.320
+ Bragg intensity sum = 1.71e+04
+ Phase fraction  :   0.052263, sig          0 Weight fraction  :  0.04896, sig    0.00000
+
+ Phase: NiO in histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 75.10%, 95.90% on 3 reflections
+ Durbin-Watson statistic = 0.320
+ Bragg intensity sum = 232
+ Phase fraction  :   0.037091, sig          0 Weight fraction  :  0.00218, sig    0.00000
+
+ Histogram: PWDR ML_Bodie_20241106_6_RYH_(EXT_BTC_50001777)_(EXT_Strem_L02402203)_(EXT_MPB_U1123352219)-RYH1065F_LaNiO3_3gKBr_100Chrup_6hrdw_1100C_100Chrdn_ grey_fluxrem_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 15.17% on 2960 observations in this histogram
+ Other residuals: R = 9.38%, R-bkg = 22.28%, wR-bkg = 15.17% wRmin = 3.55%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:     La+3     Ni+3      O-2     Ni+2
+ f'     :   -1.419   -3.002    0.049   -3.002
+ f"     :    9.035    0.509    0.032    0.509
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        1.4528        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.0214                                                        
+
+ Background function: chebyschev-1
+ value :      787.6    -440.1     214.1    -134.8     97.14    -85.16     24.75    -36.73     13.85    -49.91     28.15    -8.583     16.29     6.022    -23.39
+ sig   :      3.408      6.15     5.877     5.558     5.435     5.238     5.198     4.969     4.944     4.707     4.666     4.271     4.197     3.564     3.504
+ Background sums: empirical 2.1e+06, Debye 0, peaks 0, Total 2.1e+06

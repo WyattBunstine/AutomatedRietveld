@@ -55,7 +55,7 @@ def main():
     dir = "data/SrTiO/"
     remote = False
     config = {"detectors": [dict(
-        data_file="./ML_Bjork_20250202_1_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=0_1070C_15min.raw",
+        data_file="./ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw",
         detector_file="./LabXRD.prm",
         min_two_theta=5.0,
         max_two_theta=60.0)],
@@ -85,8 +85,6 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
 
 
     config = {"detectors": [dict(

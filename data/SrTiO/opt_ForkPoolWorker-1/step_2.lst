@@ -1,0 +1,171 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 3
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: SrO
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Sr+2      18.08740   8.13730   2.56540 -34.19300   1.49070  12.69630  24.56510  -0.01380  41.40250
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Sr+2    Nat. Abund.     87.620    0.702
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: F m -3 m
+ The lattice is centrosymmetric F-centered cubic
+ The Laue symmetry is m3m
+ The lattice point group is m3m
+ Multiplicity of a general site is 192
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 0,1/2,1/2; 1/2,0,1/2; 1/2,1/2,0)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)     Z,     X,     Y 
+ ( 3)     Y,     Z,     X 
+ ( 4)     X,     Y,    -Z 
+ ( 5)    -Z,     X,     Y 
+ ( 6)     Y,    -Z,     X 
+ ( 7)    -Z,     X,    -Y 
+ ( 8)    -Y,    -Z,     X 
+ ( 9)     Y,    -Z,    -X 
+ (10)    -X,     Y,    -Z 
+ (11)    -Z,    -X,     Y 
+ (12)     X,    -Y,    -Z 
+ (13)     Y,     X,     Z 
+ (14)     Z,     Y,     X 
+ (15)     X,     Z,     Y 
+ (16)     Y,     X,    -Z 
+ (17)    -Z,     Y,     X 
+ (18)     X,    -Z,     Y 
+ (19)    -Z,     Y,    -X 
+ (20)    -X,    -Z,     Y 
+ (21)     X,    -Z,    -Y 
+ (22)    -Y,     X,    -Z 
+ (23)    -Z,    -Y,     X 
+ (24)     Y,    -X,    -Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Sr0   Sr+2          0.00000   0.00000   0.50000   1.000    m3m    4    I 0.01000                                                
+     O1    O-2          0.00000   0.00000   0.00000   1.000    m3m    4    I 0.01000                                                
+
+ Unit cell: a = 5.52978 b = 5.52407 c = 5.51234 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 168.384 Refine? False
+
+ Phase: SrO in histogram: PWDR ML_Bjork_20250202_1_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=0_1070C_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+ March-Dollase PO:     1.0000 Refine? False Axis: 0 0 1
+
+ Size model    : isotropic equatorial:       1.000 Refine? True
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11          eA
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR ML_Bjork_20250202_1_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=0_1070C_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     5.00 deg to    59.97 deg
+
+ Sample Parameters:
+ Goniometer omega = 2.50, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :        0.0000        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540600    1.544400    0.911000    0.002000   40.551300  -35.364300    9.729830
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    0.000000    0.000000    0.000000    0.000000
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    629.466  -536.684   270.296  -179.791   138.889  -100.295    23.735   -55.955     9.581   -66.122     6.268
+                  -21.460    17.306     4.626   -19.315
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 7 No. of observations: 2960 No. of parameters: 17 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.050s,    0.017s/cycle, for 3 cycles
+ wR =   46.23%, chi**2 =       428761, GOF =  12.07
+
+ Phases:
+ Result for phase: SrO
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Sr0   Sr+2:
+ values:   0.00000   0.00000   0.50000   1.000 0.01000
+ sig   :                                               
+     O1    O-2:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+
+ Density: 4.0874 g/cm**3
+
+ Phase: SrO in histogram: PWDR ML_Bjork_20250202_1_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=0_1070C_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 76.38%, 96.87% on 5 reflections
+ Durbin-Watson statistic = 0.030
+ Bragg intensity sum = 4.67e+04
+
+ Histogram: PWDR ML_Bjork_20250202_1_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=0_1070C_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 46.23% on 2960 observations in this histogram
+ Other residuals: R = 28.85%, R-bkg = 78.19%, wR-bkg = 46.23% wRmin = 3.84%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:     Sr+2      O-2
+ f'     :   -0.355    0.049
+ f"     :    1.820    0.032
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:        1.9712        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.2063                                                        
+
+ Background function: chebyschev-1
+ value :      624.6    -540.7     270.9      -181     136.7    -95.93     27.49    -57.25     7.139    -64.51     4.191    -26.06     14.56     5.985    -21.16
+ sig   :      8.808     16.24     15.58     14.72     14.32     13.78     13.48     12.98     12.69     12.03     11.74     10.67     10.31     8.629      8.05
+ Background sums: empirical 1.55e+06, Debye 0, peaks 0, Total 1.55e+06
