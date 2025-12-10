@@ -104,7 +104,7 @@ class LatticeParameterCostFunction(models.AbstractFunction):
         # turn on unit cell refinement
         args = {
             "set": {
-                "Cell": True,
+                "Cell": False,
             }
         }
 
@@ -392,7 +392,7 @@ def main():
         solver.enable_signal_handler()
         solver.SetStrictRanges(lower_bounds, upper_bounds)
         # find the minimum
-        solver.Solve(LatticeParameterCostFunction(detectors, [phase], lat_dim), VTRChangeOverGeneration(gtol=0.1))
+        solver.Solve(LatticeParameterCostFunction(detectors, [phase], lat_dim), VTRChangeOverGeneration(gtol=0.5))
         print(
             f"" + str(phase["phase_label"]) + f" lattice parameters : {solver.bestSolution} with Rwp {solver.bestEnergy}\n")
         lattice_parameters.append(solver.bestSolution)
@@ -418,7 +418,7 @@ def main():
 
         stepmon = VerboseMonitor(50)
         solver = DifferentialEvolutionSolver2(ndim, 10 * ndim)
-        solver.SetRandomInitialPoints(min=[0.8] * ndim, max=[1.2] * ndim)
+        solver.SetRandomInitialPoints(min=[0.0] * ndim, max=[1.0] * ndim)
         solver.SetGenerationMonitor(stepmon)
         solver.enable_signal_handler()
         solver.SetStrictRanges(lower_bounds, upper_bounds)
@@ -428,7 +428,7 @@ def main():
         # find the minimum
         if round["type"] == "Phase Fraction":
             solver.Solve(PhaseFractionCostFunction(detectors,phases,ndim,ParticleSize=last_particle_size,
-                                                   lattice_parameters=lattice_parameters), VTRChangeOverGeneration(gtol=0.1))
+                                                   lattice_parameters=lattice_parameters), VTRChangeOverGeneration(gtol=0.5))
             last_phase_fraction = solver.bestSolution
         if round["type"] == "Particle Size":
             solver.Solve(ParticleSizeCostFunction(detectors,phases,ndim,
