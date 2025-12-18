@@ -1,0 +1,176 @@
+********************************************************************************
+   General Structure Analysis System-II Crystal Structure Refinement
+              by Robert B. Von Dreele & Brian H. Toby
+                Argonne National Laboratory(C), 2010
+ This product includes software developed by the UChicago Argonne, LLC,
+            as Operator of Argonne National Laboratory.
+                          Please cite:
+   B.H. Toby & R.B. Von Dreele, J. Appl. Cryst. 46, 544-549 (2013)
+********************************************************************************
+ Least squares controls:
+ Refinement type: analytic Hessian
+ Maximum number of cycles: 3
+ Regularize hydrogens (if any): False
+ Initial shift factor: 1.000
+
+ Phases:
+
+ Phase name: Sr2TiO4
+=======================================================================================================================================
+
+ X-ray scattering factors:
+   Symbol     fa                                      fb                                      fc
+---------------------------------------------------------------------------------------------------
+ Sr+2      18.08740   8.13730   2.56540 -34.19300   1.49070  12.69630  24.56510  -0.01380  41.40250
+ Ti+4      19.51140   8.23473   2.01341   1.52080   0.17885   6.67018  -0.29263  12.94640 -13.28000
+ O-2        3.76936   2.53342   1.91579   1.55094  15.07970   6.30430  40.34450   0.31291   0.22789
+
+ Electron scattering factors:
+   Symbol     fa                                                fb
+---------------------------------------------------------------------------------------------------
+
+ Neutron scattering factors:
+   Symbol   isotope       mass       b       resonant terms
+---------------------------------------------------------------------------------------------------
+ Sr+2    Nat. Abund.     87.620    0.702
+ Ti+4    Nat. Abund.     47.900   -0.337
+ O-2     Nat. Abund.     15.999    0.580
+
+ Space Group: I 4/m m m
+ The lattice is centrosymmetric I-centered tetragonal
+ The Laue symmetry is 4/mmm
+ The lattice point group is 4/mmm
+ Multiplicity of a general site is 32
+ The inversion center is located at 0,0,0
+ 
+ The equivalent positions are:
+
+ (0,0,0; 1/2,1/2,1/2)+
+
+ ( 1)     X,     Y,     Z 
+ ( 2)    -Y,     X,     Z 
+ ( 3)    -X,    -Y,     Z 
+ ( 4)     Y,    -X,     Z 
+ ( 5)    -X,     Y,     Z 
+ ( 6)    -Y,    -X,     Z 
+ ( 7)     X,    -Y,     Z 
+ ( 8)     Y,     X,     Z 
+
+ Atoms:
+   name    type  refine?   x         y         z      frac site sym  mult I/A   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Sr0   Sr+2          0.00000   0.00000   0.35465   1.000 4mm(z)    4    I 0.01000                                                
+    Ti1   Ti+4          0.00000   0.00000   0.00000   1.0004/mmm(z)    2    I 0.01000                                                
+     O2    O-2          0.00000   0.00000   0.15802   1.000 4mm(z)    4    I 0.01000                                                
+     O3    O-2          0.00000   0.50000   0.00000   1.000    mmm    4    I 0.01000                                                
+
+ Unit cell: a = 3.88982 b = 3.88982 c = 12.61326 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 190.848 Refine? False
+
+ Phase: Sr2TiO4 in histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0
+=======================================================================================================================================
+ Phase fraction  :          1 Refine? False
+ Extinction coeff:     0.0000 Refine? False
+
+ Spherical harmonics preferred orientation: Order: 16 Refine? False
+ names :      C(2,0)      C(4,0)      C(4,4)      C(6,0)      C(6,4)      C(8,0)      C(8,4)      C(8,8)     C(10,0)     C(10,4)     C(10,8)     C(12,0)     C(12,4)     C(12,8)    C(12,12)     C(14,0)     C(14,4)     C(14,8)    C(14,12)     C(16,0)     C(16,4)     C(16,8)    C(16,12)    C(16,16)
+ values:       0.000      -0.032       0.016       0.203      -0.218       0.467       0.194       0.430       0.254      -0.153      -0.234      -0.164      -0.647       0.343      -0.307      -0.171       0.173       0.015       0.265       0.252       0.203      -0.048       0.254       0.368
+ Penalty hkl list: [] tolerance: 0.10
+
+ Size model    : isotropic equatorial:       0.128 Refine? False
+	 LG mixing coeff.:       1.0000 Refine? False
+
+ Mustrain model: isotropic equatorial:      1000.0 Refine? False
+	 LG mixing coeff.:      1.0000 Refine? False
+
+ Hydrostatic/elastic strain:
+ names :         D11         D33
+ values:           0           0
+ refine:       False       False
+
+ Histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ Instrument type: Bragg-Brentano
+ Histogram limits:     5.00 deg to    59.97 deg
+
+ Sample Parameters:
+ Goniometer omega = 2.50, chi = 0.00, phi = 0.00
+ name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ value :       38.3395        0.0000        0.0000        0.0000        0.0000
+ refine:          True         False         False         False         False
+
+ Instrument Parameters:
+ name  :     Azimuth I(L2)/I(L1)        Lam1        Lam2    Polariz.        SH/L           U           V           W
+ value :    0.000000    0.500000    1.540600    1.544400    0.911000    0.002000   40.551300  -35.364300    9.729830
+ refine:                   False                               False       False       False       False       False
+
+ name  :           X           Y           Z        Zero
+ value :    0.000000    0.000000    0.000000    0.000000
+ refine:       False       False       False       False
+
+ Background function: chebyschev-1 Refine? True
+ Coefficients:    632.852  -595.705   322.256  -182.047   166.130   -94.909    67.955   -21.069    44.700   -33.732    21.602
+                  -24.599    -8.103     2.364    -7.938
+ Fixed background file: ; mult: 1.000  Refine? False
+
+ Refinement results:
+---------------------------------------------------------------------------------------------------------------------------------------
+ Number of function calls: 3 No. of observations: 2960 No. of parameters: 16 User rejected: 0 Sp. gp. extinct: 0
+ Refinement time =    0.053s,    0.053s/cycle, for 1 cycles
+ wR =   23.03%, chi**2 =       116283, GOF =   6.28
+
+ Phases:
+ Result for phase: Sr2TiO4
+=======================================================================================================================================
+
+ Atoms:
+   name      x         y         z      frac   Uiso     U11     U22     U33     U12     U13     U23
+---------------------------------------------------------------------------------------------------------------------------------------
+    Sr0   Sr+2:
+ values:   0.00000   0.00000   0.35465   1.000 0.01000
+ sig   :                                               
+    Ti1   Ti+4:
+ values:   0.00000   0.00000   0.00000   1.000 0.01000
+ sig   :                                               
+     O2    O-2:
+ values:   0.00000   0.00000   0.15802   1.000 0.01000
+ sig   :                                               
+     O3    O-2:
+ values:   0.00000   0.50000   0.00000   1.000 0.01000
+ sig   :                                               
+
+ Density: 4.9967 g/cm**3
+
+ Phase: Sr2TiO4 in histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0
+=======================================================================================================================================
+ Final refinement RF, RF^2 = 9.76%, 15.56% on 17 reflections
+ Durbin-Watson statistic = 0.164
+ Bragg intensity sum = 1.05e+06
+
+ Spherical harmonics preferred orientation: Order: 16
+ names :      C(2,0)      C(4,0)      C(4,4)      C(6,0)      C(6,4)      C(8,0)      C(8,4)      C(8,8)     C(10,0)     C(10,4)     C(10,8)     C(12,0)     C(12,4)     C(12,8)    C(12,12)     C(14,0)     C(14,4)     C(14,8)    C(14,12)     C(16,0)     C(16,4)     C(16,8)    C(16,12)    C(16,16)
+ values:       0.000      -0.032       0.016       0.203      -0.218       0.467       0.194       0.430       0.254      -0.153      -0.234      -0.164      -0.647       0.343      -0.307      -0.171       0.173       0.015       0.265       0.252       0.203      -0.048       0.254       0.368
+ sig   :                                                                                                                                                                                                                                                                                                
+
+ Texture index J = 1.080(0)
+
+ Histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0 histogram Id: 0
+=======================================================================================================================================
+ PWDR histogram weight factor = 1.000
+ Final refinement wR = 23.03% on 2960 observations in this histogram
+ Other residuals: R = 13.48%, R-bkg = 27.04%, wR-bkg = 23.03% wRmin = 3.67%
+ Instrument type: Bragg-Brentano
+
+ Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
+ Element:     Sr+2     Ti+4      O-2
+ f'     :   -0.355    0.218    0.049
+ f"     :    1.820    1.807    0.032
+
+ Sample Parameters:
+ names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
+ values:       38.2803        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.3922                                                        
+
+ Background function: chebyschev-1
+ value :      632.9    -595.6     322.3    -182.1     166.1    -95.01      67.9    -21.15     44.65    -33.77     21.68    -24.52    -8.027     2.375    -7.868
+ sig   :      4.826     8.894     8.515      8.04      7.81     7.499     7.337     6.986     6.864     6.498     6.353     5.801      5.64     4.696     4.403
+ Background sums: empirical 1.52e+06, Debye 0, peaks 0, Total 1.52e+06
