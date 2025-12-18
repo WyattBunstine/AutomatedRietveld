@@ -59,16 +59,18 @@ def main():
         detector_file="./LabXRD.prm",
         min_two_theta=5.0,
         max_two_theta=60.0)],
-        "phases": [dict(phase_file="./SrTiO3.cif",
-                        phase_label="SrTiO3"),
+        "phases": [
+                   #dict(phase_file="./SrTiO3.cif",
+                   #     phase_label="SrTiO3"),
                    dict(phase_file="./Sr2TiO4.cif",
                         phase_label="Sr2TiO4"),
-                   dict(phase_file="./Sr3Ti2O7.cif",
-                        phase_label="Sr3Ti2O7"),
-                   dict(phase_file="./Sr4Ti3O10.cif",
-                        phase_label="Sr4Ti3O10"),
-                   dict(phase_file="./SrO.cif",
-                        phase_label="SrO")],
+                   #dict(phase_file="./Sr3Ti2O7.cif",
+                   #     phase_label="Sr3Ti2O7"),
+                   #dict(phase_file="./Sr4Ti3O10.cif",
+                   #     phase_label="Sr4Ti3O10"),
+                dict(phase_file="./SrO.cif",
+                     phase_label="SrO")
+                ],
         "generations": 100,
         "evaluations": 100}
 
@@ -102,5 +104,5 @@ if __name__ == '__main__':
                         phase_label="La4Ni3O10"),
                    dict(phase_file="./NiO.cif",
                         phase_label="NiO")],
-    "generations": 100,
-    "evaluations": 100}
+    "generations": 10,
+    "evaluations": 10}
