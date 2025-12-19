@@ -64,7 +64,7 @@
      O2    O-2          0.00000   0.00000   0.15802   1.000 4mm(z)    4    I 0.01000                                                
      O3    O-2          0.00000   0.50000   0.00000   1.000    mmm    4    I 0.01000                                                
 
- Unit cell: a = 3.88982 b = 3.88982 c = 12.61326 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 190.848 Refine? False
+ Unit cell: a = 3.88976 b = 3.88976 c = 12.61345 alpha = 90.000 beta = 90.000 gamma = 90.000 volume = 190.844 Refine? False
 
  Phase: Sr2TiO4 in histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0
 =======================================================================================================================================
@@ -73,7 +73,7 @@
 
  Spherical harmonics preferred orientation: Order: 16 Refine? False
  names :      C(2,0)      C(4,0)      C(4,4)      C(6,0)      C(6,4)      C(8,0)      C(8,4)      C(8,8)     C(10,0)     C(10,4)     C(10,8)     C(12,0)     C(12,4)     C(12,8)    C(12,12)     C(14,0)     C(14,4)     C(14,8)    C(14,12)     C(16,0)     C(16,4)     C(16,8)    C(16,12)    C(16,16)
- values:       0.000      -0.032       0.016       0.203      -0.218       0.467       0.194       0.430       0.254      -0.153      -0.234      -0.164      -0.647       0.343      -0.307      -0.171       0.173       0.015       0.265       0.252       0.203      -0.048       0.254       0.368
+ values:       0.008      -0.036       0.019       0.186      -0.218       0.464       0.216       0.412       0.247      -0.133      -0.224      -0.169      -0.656       0.353      -0.284      -0.164       0.212       0.028       0.252       0.261       0.195      -0.101       0.270       0.361
  Penalty hkl list: [] tolerance: 0.10
 
  Size model    : isotropic equatorial:       1.000 Refine? False
@@ -95,7 +95,7 @@
  Sample Parameters:
  Goniometer omega = 2.50, chi = 0.00, phi = 0.00
  name  :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- value :       29.9988        0.0000        0.0000        0.0000        0.0000
+ value :       30.0138        0.0000        0.0000        0.0000        0.0000
  refine:          True         False         False         False         False
 
  Instrument Parameters:
@@ -108,15 +108,15 @@
  refine:       False       False       False       False
 
  Background function: chebyschev-1 Refine? True
- Coefficients:    656.852  -575.090   304.485  -188.942   171.119  -101.158    45.538   -28.866    41.306   -47.741     7.694
-                   -7.762    11.502     3.290   -25.444
+ Coefficients:    656.869  -575.057   304.459  -188.942   171.093  -101.170    45.491   -28.828    41.397   -47.578     7.812
+                   -7.614    11.573     3.346   -25.503
  Fixed background file: ; mult: 1.000  Refine? False
 
  Refinement results:
 ---------------------------------------------------------------------------------------------------------------------------------------
  Number of function calls: 3 No. of observations: 2960 No. of parameters: 16 User rejected: 0 Sp. gp. extinct: 0
- Refinement time =    0.053s,    0.053s/cycle, for 1 cycles
- wR =   25.90%, chi**2 =       147000, GOF =   7.07
+ Refinement time =    0.054s,    0.054s/cycle, for 1 cycles
+ wR =   25.90%, chi**2 =       147070, GOF =   7.07
 
  Phases:
  Result for phase: Sr2TiO4
@@ -142,22 +142,22 @@
 
  Phase: Sr2TiO4 in histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0
 =======================================================================================================================================
- Final refinement RF, RF^2 = 14.54%, 26.81% on 17 reflections
- Durbin-Watson statistic = 0.331
+ Final refinement RF, RF^2 = 14.57%, 26.93% on 17 reflections
+ Durbin-Watson statistic = 0.330
  Bragg intensity sum = 8.19e+05
 
  Spherical harmonics preferred orientation: Order: 16
  names :      C(2,0)      C(4,0)      C(4,4)      C(6,0)      C(6,4)      C(8,0)      C(8,4)      C(8,8)     C(10,0)     C(10,4)     C(10,8)     C(12,0)     C(12,4)     C(12,8)    C(12,12)     C(14,0)     C(14,4)     C(14,8)    C(14,12)     C(16,0)     C(16,4)     C(16,8)    C(16,12)    C(16,16)
- values:       0.000      -0.032       0.016       0.203      -0.218       0.467       0.194       0.430       0.254      -0.153      -0.234      -0.164      -0.647       0.343      -0.307      -0.171       0.173       0.015       0.265       0.252       0.203      -0.048       0.254       0.368
+ values:       0.008      -0.036       0.019       0.186      -0.218       0.464       0.216       0.412       0.247      -0.133      -0.224      -0.169      -0.656       0.353      -0.284      -0.164       0.212       0.028       0.252       0.261       0.195      -0.101       0.270       0.361
  sig   :                                                                                                                                                                                                                                                                                                
 
- Texture index J = 1.080(0)
+ Texture index J = 1.079(0)
 
  Histogram: PWDR ML_Bjork_20250202_2_WLB_0_(EXT_FS_N19G017)_(EXT_BTC_50000729)-SrTiO_n=1_1070C_15min.raw scan 0 histogram Id: 0
 =======================================================================================================================================
  PWDR histogram weight factor = 1.000
  Final refinement wR = 25.90% on 2960 observations in this histogram
- Other residuals: R = 15.71%, R-bkg = 33.79%, wR-bkg = 25.90% wRmin = 3.67%
+ Other residuals: R = 15.72%, R-bkg = 33.80%, wR-bkg = 25.90% wRmin = 3.67%
  Instrument type: Bragg-Brentano
 
  Resonant form factors:(ref: D.T. Cromer & D.A. Liberman (1981), Acta Cryst. A37, 267-268.)
@@ -167,10 +167,10 @@
 
  Sample Parameters:
  names :         Scale         Shift  Transparency    SurfRoughA    SurfRoughB
- values:       29.9988        0.0000        0.0000        0.0000        0.0000
- sig   :        0.3607                                                        
+ values:       30.0138        0.0000        0.0000        0.0000        0.0000
+ sig   :        0.3610                                                        
 
  Background function: chebyschev-1
- value :      656.9    -575.1     304.5    -188.9     171.1    -101.2     45.54    -28.87     41.31    -47.74     7.694    -7.762      11.5      3.29    -25.44
- sig   :      5.403      9.99     9.569     9.039     8.781     8.431     8.236     7.852     7.717     7.301     7.139     6.512      6.33      5.28      4.94
+ value :      656.9    -575.1     304.5    -188.9     171.1    -101.2     45.49    -28.83      41.4    -47.58     7.812    -7.614     11.57     3.346     -25.5
+ sig   :      5.404     9.992     9.572     9.041     8.783     8.433     8.238     7.854     7.719     7.302     7.141     6.514     6.332     5.281     4.941
  Background sums: empirical 1.6e+06, Debye 0, peaks 0, Total 1.6e+06

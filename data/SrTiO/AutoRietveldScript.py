@@ -192,10 +192,9 @@ class LatticeParameterCostFunction(models.AbstractFunction):
                 phase.set_HAP_refinements({"Size": {'type': 'isotropic', 'refine': self.refine_particle_size, "value": 0.1}})
                 phase.set_refinements({"Cell": True})
                 phase.set_HAP_refinements({"Scale": False})
-        # refine
         gpx.do_refinements([{}])
         for index, phase in enumerate(gpx.phases()):
-            if phase.name == self.optim_phase["phase_label"]:
+            if len(gpx.phases()) > 1 and phase.name == self.optim_phase["phase_label"]:
                 phase.set_refinements({"Cell": False})
                 phase.set_HAP_refinements({"Scale": True})
         gpx.do_refinements([{}])
@@ -217,6 +216,11 @@ class LatticeParameterCostFunction(models.AbstractFunction):
                     [(lattice_params.append(phase.get_cell()[x]) if "len" in x else 1) for x in phase.get_cell().keys()]
                     gpx.save(f"{dir_name}/{self.optim_phase["phase_label"]}_lat_params.gpx")
                     return lattice_params, [lattice_params[i]/prev_lattice_params[i] for i in range(len(lattice_params))]
+        for index, phase in enumerate(gpx.phases()):
+            if len(gpx.phases()) > 1 and phase.name == self.optim_phase["phase_label"]:
+                if phase.HAPvalue("Scale") < 0.01:
+                    return 100
+
         return stat
 
 class PhaseFractionCostFunction(models.AbstractFunction):
@@ -455,7 +459,7 @@ def main():
 
     fit_phases = []
     fit_latt_params = []
-    lattice_param_samping = np.arange(0.95, 1.05, 0.005)
+    lattice_param_samping = np.arange(0.98, 1.02, 0.0025)
 
     print(spacer +"\nStarting lattice parameter optimization\n"+spacer)
     if True:
@@ -508,9 +512,7 @@ def main():
                 if best_phase_solution is None or best_val < best_phase_solution:
                     best_phase_solution = best_val
                     best_phase = index
-            if best_total_solution is not None and best_phase_solution > best_total_solution:
-                print("Early stopping because no additional improvement in Rwp\nPhases added " + str(fit_phases))
-                break
+
 
             gsasproj = LatticeParameterCostFunction(detectors, phases[best_phase], lat_dim,
                                          non_opt_phases=fit_phases_objects)
@@ -523,15 +525,20 @@ def main():
             print("fit phases are " + str(fit_phases))
             proj = generate_project(detectors, [phases[best_phase]], lattice_parameters=[refined_scaling],
                                     fit_phases=fit_phases_objects)
+
+            if best_total_solution is not None and proj["Covariance"]["data"]["Rvals"]["Rwp"] > best_total_solution:
+                print("Early stopping because no additional improvement in Rwp\nPhases added " + str(fit_phases))
+                break
             fit_phases_objects = proj.phases()
             best_total_solution = proj["Covariance"]["data"]["Rvals"]["Rwp"]
 
         print(spacer + "\nFinal lattice parameters are " + str(fit_latt_params) + " for phases " + str(fit_phases)+"\n"+spacer)
 
         print(spacer + "\nStarting phase fraction and particle size optimization\n"+spacer)
+        proj = generate_project(detectors, [], fit_phases=fit_phases_objects, file_name=detectors[0]["data_file"][:-4])
     else:
-        fit_latt_params = [[0.995, 1.0, 1.0], [0.999, 1.0, 1.0]]
-    proj = generate_project(detectors, [], fit_phases=fit_phases_objects,file_name=detectors[0]["data_file"][:-4])
+        proj = gsasii.G2Project(detectors[0]["data_file"][:-4] + ".gpx")
+
     """
     Opens a GSAS-II project file and plots the powder diffraction data 
     (observed, calculated, and difference).
@@ -555,9 +562,9 @@ def main():
     weights = hist.ComputeMassFracs()
     scaling_factor = np.max(observed_y)
     # Plotting using Matplotlib
-    plt.figure(figsize=(15, 15))
+    plt.figure(figsize=(5, 5))
     plt.plot(x_data, observed_y/scaling_factor, 'ko', markersize=2, label='Observed')
-    plt.plot(x_data, calculated_y/scaling_factor, 'r-', linewidth=1, label='Calculated')
+    plt.plot(x_data, calculated_y/scaling_factor, 'r-', linewidth=1, label='Calculated ' + str(proj["Covariance"]["data"]["Rvals"]["Rwp"])[0:5])
     plt.plot(x_data, background_y/scaling_factor, 'b--', linewidth=1, label='Background')
     # Plot the difference curve offset below the main pattern
     offset = np.min(observed_y) * 0.8
@@ -567,13 +574,13 @@ def main():
     for key in reflections.keys():
         y = y-0.1
         ticks = [reflections[key]['RefList'][x][5] for x in range(len(reflections[key]['RefList']))]
-        plt.scatter(ticks,y*np.ones(len(ticks)), s=100, marker="|", label=key + " " + str(weights[key][0]*100)[0:5] + "%")
+        plt.scatter(ticks,y*np.ones(len(ticks)), s=100, marker="|", label=key )#+ " " + str(weights[key][0]*100)[0:5] + "%")
     plt.plot()
 
     #plt.axes().get_yaxis().set_visible(False)
     plt.xlabel(r'2$\theta$ (deg)')
     plt.ylabel(f'Intensity (arb)')
-    plt.title(f'{detectors[0]["data_file"]} + Rwp: {proj["Covariance"]["data"]["Rvals"]["Rwp"]}')
+    plt.title(f'{detectors[0]["data_file"]} Rwp: {proj["Covariance"]["data"]["Rvals"]["Rwp"]}')
     plt.legend()
     #plt.grid(True)
     plt.savefig(detectors[0]["data_file"][:-4]+".png",dpi=300)

@@ -4,21 +4,11 @@ Module requests not installed, access to ISODISTORT not possible
 ########################################################################################################################
 Starting lattice parameter optimization
 ########################################################################################################################
-Sr2TiO4 lattice parameters : [np.float64(0.995), 1.1, 1] with Rwp 25.129724042506353, optimization time: 12.535949230194092 seconds.
+Sr2TiO4 lattice parameters : [np.float64(0.9974999999999996), 1, np.float64(1.0099999999999993)] with Rwp 25.138602137792887, optimization time: 13.621949434280396 seconds.
 
-SrO lattice parameters : [np.float64(1.0), 1, np.float64(0.95)] with Rwp 46.34012745057311, optimization time: 17.334267377853394 seconds.
+SrO lattice parameters : [np.float64(0.9974999999999996), 1, np.float64(0.9824999999999999)] with Rwp 46.336633607903806, optimization time: 9.933961868286133 seconds.
 
 gpx file saved as /home/wyatt/PycharmProjects/AutomatedRietveld/data/SrTiO/workers/opt_MainProcess/Sr2TiO4_lat_params.gpx
 Round 1 best phase is Sr2TiO4
-Lattice Parameters are : [np.float64(3.889663166213799), np.float64(3.889663166213799), np.float64(12.61142962257681)] with scaling [np.float64(0.9983131554113368), np.float64(0.9983131554113368), np.float64(1.0013539249714971)]
+Lattice Parameters are : [np.float64(3.8895289967509887), np.float64(3.8895289967509887), np.float64(12.612300385662847)] with scaling [np.float64(0.9982787197458166), np.float64(0.9982787197458166), np.float64(1.0014230640033133)]
 fit phases are ['Sr2TiO4']
-SrO lattice parameters : [np.float64(0.975), 1.1, 1] with Rwp 25.898161285303534, optimization time: 56.04667854309082 seconds.
-
-Early stopping because no additional improvement in Rwp
-Phases added ['Sr2TiO4']
-########################################################################################################################
-Final lattice parameters are [[np.float64(0.9983131554113368), np.float64(0.9983131554113368), np.float64(1.0013539249714971)]] for phases ['Sr2TiO4']
-########################################################################################################################
-########################################################################################################################
-Starting phase fraction and particle size optimization
-########################################################################################################################
